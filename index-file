@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javaScript-statements-1.html</title>
+
+    <link rel="stylesheet" href="/javaScript-statements-1.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h2 id="text-h2-id" class="text-h2">Hello world!</h2>
+        <div class="button-wrapper">
+
+            <h2 id="textH2Subscribe">You're not subscribed</h2>
+
+            <a href="#" id="subscribe-btn" class="button">Subscribe</a>
+            <br>
+            <div class="time-wrapper">
+                <p id="timeHours" class="time-text">hours</p>
+                <p id="timeMin" class="time-text">Minutes</p>
+                <p id="timeSec" class="time-text">Seconds</p>
+            </div>
+
+            <div class="html-text-wrapper">
+                <span>8</span>
+
+                <strong><del><span>A</span></del></strong>
+
+                <p><span>a<sup>2</sup></span>
+
+                    <span>7</span>
+                </p>
+
+
+                <span>H<sub>2</sub>O</span>
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="javaScript-statements-1.js"></script>
+</body>
+
+</html>
