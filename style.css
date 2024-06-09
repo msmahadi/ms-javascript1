@@ -1,0 +1,74 @@
+  /* style start  */
+  body {
+      font-family: sans-serif;
+  }
+
+  /* button start  */
+
+  .button-wrapper {
+      margin: 41px 0px;
+      padding: 10px;
+  }
+
+  .button {
+      background: red;
+      color: white;
+      padding: 8px 16px;
+      border: none;
+      margin: 84px 0 !important;
+      transition: all 150ms;
+      border-radius: 4px;
+      font-weight: 700;
+      text-decoration: none;
+      cursor: pointer;
+      /* display: none; */
+  }
+
+  .button:hover {
+      background: rgb(13, 255, 126);
+      color: rgb(48, 48, 48);
+      scale: 1.08;
+
+  }
+
+  /* button end */
+
+
+
+  /* time-wrapper start  */
+  .time-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 16px;
+      background:
+          black;
+      color: white;
+      padding: 16px !important;
+      border-radius: 8px;
+      max-width: 450px;
+      height: 100px;
+      margin: 0 auto;
+
+
+
+  }
+
+  .time-text {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: auto;
+      min-height: 50px;
+      background: #ff1144;
+      backdrop-filter: blur(20px);
+      padding: 10px;
+      margin: 16px 0 !important;
+      font-size: 1.5rem;
+      font-weight: bold;
+      border-radius: 8px;
+  }
+
+  /* time-wrapper end  */
+  /* style end */
